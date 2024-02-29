@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upcoming-company-anniversaries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/upcomingCompanyAnniversaries/UpcomingCompanyAnniversariesWebPart.js",
+          "manifest": "./src/webparts/upcomingCompanyAnniversaries/UpcomingCompanyAnniversariesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UpcomingCompanyAnniversariesWebPartStrings": "lib/webparts/upcomingCompanyAnniversaries/loc/{locale}.js"
+  }
+}

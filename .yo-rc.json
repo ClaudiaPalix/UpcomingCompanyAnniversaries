@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "upcoming-company-anniversaries",
+    "libraryId": "f4066e74-b8ee-4153-82f8-b2204dc9c0ca",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "upcoming-company-anniversaries",
+    "solutionShortDescription": "upcoming-company-anniversaries description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

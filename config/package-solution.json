@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "upcoming-company-anniversaries-client-side-solution",
+    "id": "f4066e74-b8ee-4153-82f8-b2204dc9c0ca",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "upcoming-company-anniversaries description"
+      },
+      "longDescription": {
+        "default": "upcoming-company-anniversaries description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "upcoming-company-anniversaries Feature",
+        "description": "The feature that activates elements of the upcoming-company-anniversaries solution.",
+        "id": "6e53053b-aff8-42d8-b9a0-5a9038c0b160",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/upcoming-company-anniversaries.sppkg"
+  }
+}
